@@ -1,0 +1,32 @@
+name: Reportar un error
+description: Algo no funciona como debería.
+labels: [bug]
+body:
+  - type: textarea
+    id: que-paso
+    attributes:
+      label: Qué pasó
+      description: Qué hiciste, qué esperabas que pasara y qué pasó en cambio. Si podés, sumá una captura.
+    validations:
+      required: true
+  - type: textarea
+    id: pasos
+    attributes:
+      label: Cómo reproducirlo
+      placeholder: |
+        1. Tocar el mosaico «Captura larga»
+        2. Sacar tres capturas en …
+        3. …
+  - type: input
+    id: version
+    attributes:
+      label: Versión de Captura Larga
+      description: Está en Ajustes → Apps → Captura Larga, abajo de todo.
+      placeholder: "1.9.0"
+    validations:
+      required: true
+  - type: input
+    id: telefono
+    attributes:
+      label: Teléfono y versión de Android
+      placeholder: "Samsung Galaxy S23, Android 15"

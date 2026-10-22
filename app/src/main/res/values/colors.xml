@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FF4F8CFF</color>
+
+    <!-- Floating controls while capturing -->
+    <color name="control_solid">#FF020001</color>
+    <color name="control_translucent">#A0000000</color>
+    <color name="control_pressed">#FF3A3A3A</color>
+
+    <!-- Stitch editor -->
+    <color name="editor_bar">#FF1E1E1E</color>
+    <color name="white_pressed">#33FFFFFF</color>
+    <color name="cut_handle">#FFFFC34C</color>
+    <color name="cut_handle_grip">#FF6C3A05</color>
+    <color name="cut_dim">#A0000000</color>
+
+    <color name="ic_launcher_background">#FF1B2A49</color>
+</resources>

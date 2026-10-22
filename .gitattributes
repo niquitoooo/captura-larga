@@ -1,0 +1,14 @@
+# Fines de línea normalizados en el repo; en Windows se escriben como CRLF.
+* text=auto
+
+*.kt          text
+*.kts         text
+*.xml         text
+*.md          text
+*.yml         text
+*.properties  text
+gradlew       text eol=lf
+*.bat         text eol=crlf
+
+*.png         binary
+*.jar         binary

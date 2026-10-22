@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Captura Larga</string>
+
+    <!-- Editor de pegado -->
+    <string name="editor_title">Unir capturas</string>
+    <string name="editor_back">Volver</string>
+    <string name="editor_auto">Auto</string>
+    <string name="editor_loading">Cargando capturas…</string>
+    <string name="load_failed">No se pudieron abrir las capturas.</string>
+    <string name="analyzing">Reconociendo uniones…</string>
+    <string name="auto_failed">No se pudo reconocer automáticamente</string>
+    <string name="seam_cut">Cortar esta unión</string>
+    <string name="seam_undo">Deshacer el corte</string>
+    <string name="seam_confirm">Aplicar el corte</string>
+    <string name="seam_cancel">Cancelar el corte</string>
+    <string name="save">Guardar</string>
+    <string name="share">Compartir</string>
+    <string name="saving">Guardando… %1$d%%</string>
+    <string name="saved">Guardada en Pictures/Screenshots</string>
+    <string name="save_failed">No se pudo guardar. Probá de nuevo.</string>
+    <string name="exit_title">¿Salir sin guardar?</string>
+    <string name="exit_message">Tocá Guardar para conservar tu trabajo.</string>
+    <string name="exit_confirm">Salir</string>
+    <string name="exit_cancel">Cancelar</string>
+
+    <!-- Controles flotantes y servicio -->
+    <string name="tile_label">Captura larga</string>
+    <string name="accessibility_description">Captura Larga usa este servicio para sacar capturas de pantalla y mostrar sus botones flotantes. No lee el contenido de la pantalla ni lo que escribís.</string>
+    <string name="controls_add">Capturar</string>
+    <string name="controls_done">Listo</string>
+    <string name="controls_close">Cerrar</string>
+    <string name="controls_remove">Quitar esta captura</string>
+    <string name="hint_title">Scrolleá y capturá</string>
+    <string name="hint_overlap">Asegurate de que haya solape entre una captura y la siguiente</string>
+    <string name="toast_capture_failed">No se pudo capturar</string>
+    <string name="toast_limit">Llegaste al máximo de %1$d capturas</string>
+    <string name="toast_size_changed">La pantalla cambió de tamaño; esa captura se descartó</string>
+    <string name="toast_blocked">Salió de un solo color: puede que esta app bloquee las capturas</string>
+
+    <!-- Pantalla principal -->
+    <string name="main_status_on">El servicio de accesibilidad está activo. Ya podés usar el mosaico.</string>
+    <string name="main_status_off">El servicio de accesibilidad está apagado. Sin él la app no puede capturar.</string>
+    <string name="main_resume_session">Abrir la sesión sin guardar (%1$d capturas)</string>
+    <string name="main_open_accessibility">Abrir ajustes de accesibilidad</string>
+    <string name="main_restricted_help">Si Android no te deja activarlo ("ajuste restringido"), andá a Ajustes &gt; Apps &gt; Captura Larga, tocá los tres puntos de arriba a la derecha y elegí "Permitir ajustes restringidos". Después volvé a intentar.</string>
+    <string name="main_add_tile">Agregar el mosaico a Ajustes rápidos</string>
+    <string name="main_how_to">Cómo se usa: bajá la barra de arriba y tocá el mosaico "Captura larga". Abajo aparecen tres botones. Tocá el + para capturar, scrolleá con el dedo y repetí; arriba a la derecha se van juntando las capturas. El tilde abre el editor para unirlas: con la tijera de cada unión cortás lo que sobra, o tocás Auto para que lo intente sola. La X cierra sin guardar.</string>
+</resources>
